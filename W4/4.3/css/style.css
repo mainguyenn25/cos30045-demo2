@@ -1,0 +1,7 @@
+/* Step 2: Add a class to help us specify the container for our svg elements. */
+.responsive-svg-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1200px;
+}
