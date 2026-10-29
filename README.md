@@ -2,7 +2,7 @@
 
 A collection of web-based data visualisation exercises built for the COS30045 unit. Each exercise is a standalone static web page that renders charts in the browser using D3.js and data stored as CSV files. The project covers SVG drawing, responsive bar charts, multi-chart data stories, and interactive visualisations (histograms, scatterplots, filters and tooltips).
 
-LINK DEMO: 
+LINK DEMO: https://mainguyenn25.github.io/cos30045-demo2/
 
 ## Overview
 
@@ -33,15 +33,15 @@ cos30045-demo2/
 ├── styles.css            # Shared styles for the home page and exercise pages
 ├── exercise-4.1.html     # Exercise 4.1 – SVG house
 ├── exercise-4.html       # Exercise 4.3–4.6 – Bar chart website
-├── exercise-5.html       # Exercise 5 – Multi-chart page (5.1, 5.2, 5.3)
-├── exercise-6.html       # Exercise 6 – Interactivity (6.1–6.4)
+├── exercise-5.html       # Exercise 5 – Multi-chart page 
+├── exercise-6.html       # Exercise 6 – Interactivity 
 ├── data/                 # Shared CSV datasets
 ├── W4/
 │   ├── 4.1/              # SVG house (pic.svg, test.html)
 │   ├── 4.3/ … 4.7/       # Each step: index.html, css/style.css, js/main.js
 │   └── data/             # CSV used by Week 4 exercises
 ├── W5/
-│   ├── 5.1/              # Average 55-inch TV energy consumption (own data/ folder)
+│   ├── 5.1/              # Average 55-inch TV energy consumption
 │   ├── 5.2/              # Average ARE spot prices
 │   ├── 5.3/              # TVs by screen size category
 │   └── data/             # CSV used by Week 5 exercises
@@ -53,7 +53,7 @@ cos30045-demo2/
 
 Each Week 6 step is split into modules:
 
-- `load-data.js` – reads and converts the CSV file with `d3.csv()`.
+- `load-data.js` – reads and converts the CSV file with d3.csv().
 - `shared-constants.js` – shared margins, chart sizes and colours.
 - `histogram.js` – draws the energy consumption histogram.
 - `scatterplot.js` – draws the scatterplot.
